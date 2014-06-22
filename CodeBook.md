@@ -1,42 +1,47 @@
 Code book
 1. Variable name : url
-Variable value : "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-Description : The url of zipped files
-Variable name : 
-Variable value:
-Description :
+   Variable value : "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+   Description : The url of zipped files
+
 2. Variable name : td
-Variable value : “C:\\Users\\..\\AppData\\Local\\Temp\\...”
-Description : Temporary directory
+   Variable value : “C:\\Users\\..\\AppData\\Local\\Temp\\...”
+   Description : Temporary directory
+
 3. Variable name : tf
-Variable value : “C:\\Users\\..\\AppData\\Local\\Temp\\....zip”
-Description : Unzipped file folder
-activity
-4. 'data.frame':    6 obs. of 2 variables: 
+   Variable value : “C:\\Users\\..\\AppData\\Local\\Temp\\....zip”
+   Description : Unzipped file folder
+
+4. Variable name : activity
+   Variable value : 'data.frame':    6 obs. of 2 variables: 
 $ V562: int  1 2 3 4 5 6
 $ V564: chr  "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING" ...
-Activity data set 
-features
+   Description : Activity data set 
+
+5. Variable name : features
+   Variable value :
 data.frame':    561 obs. of  3 variables:
  $ V1: int  1 2 3 4 5 6 7 8 9 10 ...
  $ V2: chr  "tBodyAcc-mean()-X" "tBodyAcc-mean()-Y" "tBodyAcc-mean()-Z" "tBodyAcc-std()-X" ...
  $ V3: chr  "the mean of body acceleration on the X axis " "the mean of body acceleration on the Y axis " "the mean of body acceleration on the Z axis " "the standard deviation of body acceleration on the X axis " ...
-Features data set. Column three is the descriptive label for task 3
-testSub
-'data.frame':   2947 obs. of  1 variable:
+   Description : Features data set. Column three is the descriptive label for task 3
+
+6. Variable name : testSub
+   Variable value: 'data.frame':   2947 obs. of  1 variable:
  $ V563: int  2 2 2 2 2 2 2 2 2 2 ...
-Data set contains the subject of each test data
-test
-'data.frame':	2947 obs. of  561 variables:
+   Description : Data set contains the subject of each test data
+
+7. Variable name : test
+   Variable value : 'data.frame':	2947 obs. of  561 variables:
  $ V1  : num  0.257 0.286 0.275 0.27 0.275 ...
  $ V2  : num  -0.0233 -0.0132 -0.0261 -0.0326 -0.0278
- ��
-Data set contains all test data
-testLabel
-'data.frame':   2947 obs. of  1 variable:
+   Description : Data set contains all test data
+
+8. Variable name : testLabel
+   Variable value: 'data.frame':   2947 obs. of  1 variable:
  $ V562: int  5 5 5 5 5 5 5 5 5 5 ...
-Data set contains the label for each test data
-trainSub
+   Description : Data set contains the label for each test data
+
+9. trainSub
 data.frame':	7352 obs. of  1 variable:
  $ V563: int  1 1 1 1 1 1 1 1 1 1 ...
 Data set contains the subject of each train data
