@@ -1,19 +1,18 @@
 Code book
-1. Variables
-Variable- name 
-Variable value
-Description
-url
-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-The url of zipped files
-td
-°∞C:\\Users\\..\\AppData\\Local\\Temp\\...°±
-Temporary directory
-tf 
-°∞C:\\Users\\..\\AppData\\Local\\Temp\\....zip°±
-Unzipped file folder
+1. Variable name : url
+Variable value : "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+Description : The url of zipped files
+Variable name : 
+Variable value:
+Description :
+2. Variable name : td
+Variable value : ‚ÄúC:\\Users\\..\\AppData\\Local\\Temp\\...‚Äù
+Description : Temporary directory
+3. Variable name : tf
+Variable value : ‚ÄúC:\\Users\\..\\AppData\\Local\\Temp\\....zip‚Äù
+Description : Unzipped file folder
 activity
-'data.frame':    6 obs. of 2 variables: 
+4. 'data.frame':    6 obs. of 2 variables: 
 $ V562: int  1 2 3 4 5 6
 $ V564: chr  "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING" ...
 Activity data set 
@@ -31,7 +30,7 @@ test
 'data.frame':	2947 obs. of  561 variables:
  $ V1  : num  0.257 0.286 0.275 0.27 0.275 ...
  $ V2  : num  -0.0233 -0.0132 -0.0261 -0.0326 -0.0278
- °≠
+ ÔøΩÔøΩ
 Data set contains all test data
 testLabel
 'data.frame':   2947 obs. of  1 variable:
@@ -44,8 +43,8 @@ Data set contains the subject of each train data
 train
 'data.frame':	7352 obs. of  561 variables:
  $ V1  : num  0.289 0.278 0.28 0.279 0.277 ...
- $ V2  : num  -0.0203 -0.0164 -0.0195 -0.0262 -0.0166 °≠
-°≠..
+ $ V2  : num  -0.0203 -0.0164 -0.0195 -0.0262 -0.0166 ÔøΩÔøΩ
+ÔøΩÔøΩ..
 Data set contains all train data
 trainLabel
 'data.frame':   7352 obs. of  1 variable:
