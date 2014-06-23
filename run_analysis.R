@@ -14,7 +14,7 @@ download.file(url, tf)
 # which I'll use for extracting the data from the archive. 
 
 # list all file names in zipped file
-unzip(tf, list=TRUE)
+filelist<-unzip(tf, list=TRUE)
 # create a function to extract file and load into r
 extract<-function(x){
     fname = unzip(tf, list=TRUE)$Name[x]
@@ -121,7 +121,6 @@ label(totalMeanStdls[,MeanStdV], self=F)<-c(features$V3[MeanStd])
 # label other three variables
 label(totalMeanStdls[,"V563"])<-"subject"
 label(totalMeanStdls[,"V562"])<-"activity"
-str(totalMeanStdls)
 
 ## TASK 5: Creates a second, independent tidy data set
 ## with the average of each variable for each activity and each subject. 
