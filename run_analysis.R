@@ -16,7 +16,7 @@ download.file(url, tf)
 # list all file names in zipped file
 unzip(tf, list=TRUE)
 # create a function to extract file and load into r
-extract<-function(x,y){
+extract<-function(x){
     fname = unzip(tf, list=TRUE)$Name[x]
     # unzip the file to the temporary directory
     unzip(tf, files=fname, exdir=td, overwrite=TRUE)
